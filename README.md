@@ -2,6 +2,8 @@
 
 docker-compose up -d
 
+docker-compose run --rm composer install
+
 docker-compose run --rm artisan migrate
 
 docker-compose run --rm artisan import:customers

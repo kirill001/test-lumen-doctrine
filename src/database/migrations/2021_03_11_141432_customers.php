@@ -23,7 +23,6 @@ class Customers extends Migration
             $table->string('gender')->nullable();
             $table->string('city')->nullable();
             $table->string('phone')->nullable();
-            $table->timestamps();
         });
     }
 
